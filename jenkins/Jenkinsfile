@@ -4,7 +4,7 @@ pipeline {
     environment {
         ARTIFACTORY_URL = 'https://manojkamatam.jfrog.io/artifactory'
         ARTIFACTORY_REPO = 'app_deployement-generic-local'
-        CREDENTIALS_ID = 'artifact_id'
+        CREDENTIALS_ID = 'artifact'
         ENVIRONMENT_NAME = 'Test-env-env-env'
         APPLICATION_NAME = 'test-env'
         AWS_REGION = 'us-east-1'
