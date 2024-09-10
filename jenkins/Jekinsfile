@@ -5,7 +5,7 @@ pipeline {
         ARTIFACTORY_URL = 'https://manojkamatam.jfrog.io/artifactory'
         ARTIFACTORY_REPO = 'app_deployement-generic-local'
         CREDENTIALS_ID = 'artifact_id'
-        ENVIRONMENT_NAME = 'test-env-env'
+        ENVIRONMENT_NAME = 'Test-env-env-env'
         APPLICATION_NAME = 'test-env'
         AWS_REGION = 'us-east-1'
         SECRET_NAME = 'secret-jenkins-access'
@@ -27,7 +27,7 @@ pipeline {
 
         stage('Checkout') {
             steps {
-                git url: 'https://github.com/ManojKamatam/Beanstalk_Deployments_maintainingVersions-SecretManager.git', branch: 'main'
+                git url: 'https://github.com/ManojKamatam/https://github.com/ManojKamatam/Deployment_with_JFrogArtifactory.git', branch: 'main'
             }
         }
 
