@@ -27,7 +27,7 @@ pipeline {
 
         stage('Checkout') {
             steps {
-                git url: 'https://github.com/ManojKamatam/https://github.com/ManojKamatam/Deployment_with_JFrogArtifactory.git', branch: 'main'
+                git url: 'https://github.com/ManojKamatam/Deployment_with_JFrogArtifactory.git', branch: 'main'
             }
         }
 
